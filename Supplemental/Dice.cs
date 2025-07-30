@@ -26,10 +26,12 @@ namespace Angelwings.Supplemental
             var hope = RollD12();
             // Get fear die and roll it
             var fear = RollD12();
-            // Compare the two rolls and add them together.
-            // If hope was bigger, add "with hope" to the result.
-            // If fear was bigger, add "with fear" to the result.
-            // If they are equal, add "CRITICAL SUCCESS" to the result.
+            /// Logic:
+            /// Compare the two rolls and add them together.
+            /// - If hope was bigger, add "with hope" to the result.
+            /// - If fear was bigger, add "with fear" to the result.
+            /// - If they are equal, add "CRITICAL SUCCESS" to the result.
+           
             int total = hope + fear;
             string outcome = hope > fear ? "with hope"
                 : fear > hope ? "with fear"

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Angelwings.Models
 {
-    public class Character
+    public class Character // Considering making this a Player class but might make more sense to keep as is for now.
     {
         #region Properties
         // Metadata
