@@ -18,7 +18,7 @@ A cross-platform .NET MAUI app designed to assist Game Masters and Players of th
 
 ## 🚧 Project Status
 
-This project is still in early development. Expect placeholder UI, missing features, and rapid iteration.
+This project is still in early development. Expect placeholder UI, broken/missing features, and rapid iteration.
 
 Want to help shape this app? Keep reading 👇
 
